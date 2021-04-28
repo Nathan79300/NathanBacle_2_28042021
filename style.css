@@ -1,0 +1,56 @@
+@font-face {
+    font-family src
+}
+#logo{
+    width: 80px; 
+    margin: 15px;
+    
+}
+#ligne{
+ 
+  
+}
+#Hébergement{
+    
+    color:#0065FC ;}
+
+
+ 
+#Sinscrire{
+  
+    color: #0065FC;
+     font-weight: bold;
+    font-family:;}
+h2{
+     margin: 15px;
+   
+    font-size: 19px;
+    font-weight: bold;
+}
+p{
+    
+    
+    font-size: 14px;
+}
+#Boutton{
+    
+    background-color: #0065FC;
+    color: white;
+   
+    border-top-right-radius: 10px; 
+    border-bottom-right-radius: 10px;
+    width: 100px;
+    height: 40px;
+    margin: 70px;
+    
+}
+#lignemarseille{
+     margin: 10px;
+   
+}
+
+
+    
+
+
+
