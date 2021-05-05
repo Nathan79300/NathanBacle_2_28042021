@@ -1,35 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>  
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Reservia</title>
-    </head> 
+    </head>  
 
-<body>
 
-    <div id="bloc_page">
+    <body>
+
 
         <header>
-            <img id="logo" src="Images/Reservia.png">
+            <img class="logo" src="Reservia.png">
             <nav>
-             
-
-                 
-
-                 <div id="Hébergement" >Hébergements</div>
-                 <div id="Activités" >Activités</div>
-                 <div id="Sinscrire">S'inscrire</div>
-                 
-                 
-                  
+                <ul>
+                    <li class="hebergement"><a href="#">Hébergements</a></li> 
+                    <li class="activites"><a href="#">Activités</a</li>
+                    <li class="Sinscrire"><a href="#">S'inscrire</a></li>
+                    
+                </ul>
             </nav>
-                
-            </div>
         </header>
-        <h2>Trouvez votre hébergement pour des vacances de rêves</h2>
-        <p>En plein centre ville ou en pleine nature</p>
-        <input id="Boutton" type="button" value="Rechercher">
-    </div>
+
+        <section class="recherche">
+            <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
+            <p>En plein centre-ville ou en pleine nature</p>
+
+                
+                <span class="IconeRecherche"><i class="Icone"></i></span>
+                
+                <input type="text" class="Barre" placeholder="Marseille, France">
+                
+                <button>
+                    
+                    <i class="Icone"></i>
+                    <i class="Rechercher"></i>
+                    <i class="fas fa-map-marker-alt"></i>
+                </button>
+                
+                <div class="FiltreRecherche">
+                  
+                    <div class="container">
+                        <div class="div1"></div>
+                        <div class="div2"></div>
+                    </div>
+        </section>
+        
+       
 </body>
 </html>
