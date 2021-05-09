@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>  
+    <script src="https://kit.fontawesome.com/236614b8d3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <title>Reservia</title>
@@ -25,27 +26,55 @@
         <section class="recherche">
             <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
             <p>En plein centre-ville ou en pleine nature</p>
-
-                
-                <span class="IconeRecherche"><i class="Icone"></i></span>
-                
-                <input type="text" class="Barre" placeholder="Marseille, France">
-                
-                <button>
-                    
-                    <i class="Icone"></i>
-                    <i class="Rechercher"></i>
-                    <i class="fas fa-map-marker-alt"></i>
-                </button>
-                
-                <div class="FiltreRecherche">
-                  
-                    <div class="container">
-                        <div class="div1"></div>
-                        <div class="div2"></div>
-                    </div>
-        </section>
         
-       
+               
+                
+                 <div class="formrecherche">
+    
+                     <div class="blockMap">
+                        <div class="map"><i class="fas fa-map-marker-alt" id="iconemap"></i> </div>
+                        
+                     </div>
+                     <input type="text" class="Barre" placeholder="Marseille, France">
+                     <input class="buttonderecherche" type="submit" value="Rechercher">
+                </div>                    
+
+                <div class="containerfiltre">
+                    <h2>Filtres</h2>
+                    <button class="button-filtre">
+                        <div class="economique">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        Economique
+                    </button>
+
+
+                    <button class="button-filtre">
+                        <div class="familial">
+                            <i class="fas fa-child"></i>
+                        </div>
+                        Familial
+                    </button>
+
+                    <button class="button-filtre">
+                        <div class="romantique">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        Romantique
+                    </button>
+
+                    <button class="button-filtre">
+                    <div class="animaux">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                    Animaux autorisés
+                    </button>
+                </div>
+               
+                <div class="imformationn">
+               <h3>Plus de 500 logements sont disponibles dans cette ville</h3>
+               <i class="fas fa-info-circle  id="information"></i> </div>
+                </div>
+        </section>     
 </body>
 </html>
