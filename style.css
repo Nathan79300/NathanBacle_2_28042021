@@ -233,6 +233,7 @@ h3{
 }
 .container{
     display: flex;
+<<<<<<< HEAD
     width: 100%;
    
 }
@@ -249,6 +250,18 @@ h3{
 
 .vignettehebergement{
     margin-top: 2%;
+=======
+    flex-wrap: wrap;
+    height: 569px;
+    width: 805px; 
+    background-color:#F2F2F2;
+    margin-top: 26px;
+    margin-left: 20px;
+    border-radius: 15px 15px 15px 15px;
+
+}
+.vignettehebergement{
+>>>>>>> main
     margin-left: 18px;
     background-color: white;
     height: 200px; 
@@ -294,12 +307,20 @@ margin-left: 20px;
 .container2{
     display: flex;
     flex-wrap: wrap;
+<<<<<<< HEAD
     margin-top: 26px;
     margin-left: 20px;
     margin-right: 20px;
     height: 600px;
     width: 400px; 
     background-color:#F2F2F2;
+=======
+    margin-top: 10px;
+    height: 569px;
+    width: 569px; 
+    background-color:#F2F2F2;
+    margin-left: 900px;
+>>>>>>> main
     border-radius: 15px 15px 15px 15px;
 }
 .montitre{
@@ -310,6 +331,7 @@ margin-left: 20px;
 .fa-chart-line{
 font-size: 20px;
 margin-left: 160px;
+<<<<<<< HEAD
 margin-top:28px;
 }
 .vignettepopulaire{
@@ -333,3 +355,22 @@ margin-bottom: 5%;
 margin-left: 30%;
 font-size: 17px;
 }  
+=======
+margin-top:28px ;
+}
+.vignettepopulaire{
+margin-bottom: 50%;
+margin-left: 20px;
+background-color: white;
+height: 150px; 
+width: 320px;
+border-radius: 15px 15px 15px 15px;
+}
+.imagepopulaire{
+margin-top: 5%;
+margin-left: 8px;
+height: 150px; 
+width: 290px;
+border-radius: 15px 15px 15px 15px;
+}
+>>>>>>> main
