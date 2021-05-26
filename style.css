@@ -87,7 +87,7 @@ p{
     height: 28px;
     font-size: 1.125rem;
     border: 1px solid #F2F2F2;
- 
+    
 }
 
 
@@ -103,6 +103,10 @@ p{
 .buttonderecherche{
     color:white 
     
+}
+.buttonderecherche{
+cursor: pointer;
+float: left;
 }
  
 .blockMap{
@@ -163,6 +167,13 @@ h2{
     align-items: center;
     justify-content: flex-start;
 }
+.button-filtre:hover{
+    -webkit-transform: scale(1.05);
+}
+.button-filtre{
+   cursor: pointer;
+   float: left;
+}
 
 .economique{
     background-color:#DEEBFF ;
@@ -187,6 +198,7 @@ h2{
     color: blue;
 }
 .romantique{
+    
     background-color:#DEEBFF ;
     border-radius: 15px 15px 15px 15px;
     height: 100%;
@@ -196,6 +208,7 @@ h2{
     justify-content: center;
     margin-right: 6px;
     color :blue
+    
 }
 .animaux{
     background-color:#DEEBFF ;
@@ -256,6 +269,9 @@ h3{
     border-radius: 15px 15px 15px 15px;
     
 }
+.vignettehebergement:hover {
+    -webkit-transform: scale(1.05);
+}
 .container .title{
    
     width: 100%;
@@ -268,11 +284,15 @@ h3{
  margin-right: 5%;
  width: 90%;
  border-radius: 15px 15px 0px 0px;
- height: 100px;
+ height: 114px;
+ transition-duration: 0.1s;
+ cursor: pointer;
+ float: left;
 } 
 .titre-carte{
     margin-left: 5%;
     font-size: 14px;
+    
 }  
 .sous-titre-carte{
     margin-left: 5%;
@@ -297,7 +317,7 @@ margin-left: 20px;
     margin-top: 26px;
     margin-left: 20px;
     margin-right: 20px;
-    height: 600px;
+    height: 627px;
     width: 400px; 
     background-color:#F2F2F2;
     border-radius: 15px 15px 15px 15px;
@@ -321,15 +341,21 @@ height: 130px;
 width: 330px;
 border-radius: 15px 15px 15px 15px;
 }
+.vignettepopulaire:hover{
+    -webkit-transform: scale(1.05);
+}
 .imagepopulaire{
 margin: 5px;
 height: 115px; 
 width: 130px;
 border-radius: 15px 0px 0px 15px;
+transition-duration: 0.1s;
+cursor: pointer;
 }
 
-.titre-populaire{
 
+.titre-populaire{
+width: 130px;
 font-size: 14px;
 }  
 .containertexte{
@@ -359,47 +385,124 @@ margin-left: 20px;
 font-size: 20px;
 }
 .container-activite{
-
+    display: flex;  
 }
+
 .vieux-port{
     margin-top: 18px;
     margin-left: 20px;
-    height: 400px;
-    width: 280px;
+    height: 387px;
+    width: 306px;
     border-radius: 15px 15px 15px 15px; 
-    margin-bottom: 100px;
+    margin-bottom: 5px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     
+}
+.vieux-port:hover{
+    -webkit-transform: scale(1.05);
 }
 .activity .image{
     border-radius: 15px 15px 0px 0px; 
     width: 100%;
     height: 87%;
+    transition-duration: 0.1s;
+    cursor: pointer;
 }
 .activity .titre{
-position: relative;
-left: 10px;
-top: 10px;
-font-weight: bold;
+    position: relative;
+    left: 10px;
+    top: 10px;
+    font-weight: bold;
 }
 .activity .fort-pomegues{
     margin-top: 18px;
     margin-left: 20px;
-    height: 250px;
-    width: 250px;
+    height: 183px;
+    width: 301px;
     border-radius: 15px 15px 15px 15px; 
-    margin-bottom: 100px;
+    margin-bottom: 5x;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
  
+}
+.fort-pomegues:hover{
+    -webkit-transform: scale(1.05);
 }
 .activity .iles-frioul{
     margin-top: 18px;
     margin-left: 20px;
-    height: 250px;
-    width: 250px;
+    height: 111px;
+    width: 301px;
     border-radius: 15px 15px 15px 15px; 
-    margin-bottom: 100px;
+    margin-bottom: 5px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
 }
-
-
+.iles-frioul:hover{
+    -webkit-transform: scale(1.05);
+}
+.activity .parc-calanques{
+    margin-top: 18px;
+    margin-left: 20px;
+    height: 387px;
+    width: 306px;
+    border-radius: 15px 15px 15px 15px; 
+    margin-bottom: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+}
+.parc-calanques:hover{
+    -webkit-transform: scale(1.05);
+}
+.activity .notre-dame{
+    margin-top: 18px;
+    margin-left: 20px;
+    height: 137px;
+    width: 302px;
+    border-radius: 15px 15px 15px 15px; 
+    margin-bottom: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+}
+.notre-dame:hover{
+    -webkit-transform: scale(1.05);
+}
+.activity .parc-long{
+    margin-top: 18px;
+    margin-left: 20px;
+    height: 175px;
+    width: 300px;
+    border-radius: 15px 15px 15px 15px; 
+    margin-bottom: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; 
+}
+.parc-long:hover{
+    -webkit-transform: scale(1.05);
+}
+footer {
+    background-color: #f2f2f2;
+  }
+  
+  .blockFooter {
+    display: flex;
+    max-width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .interieurblockFooter {
+    width: 40%;
+  }
+  
+  .footerTitre {
+    display: block;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 51px;
+    margin-left: 20px;
+  }
+  
+  .lignesFooter {
+    text-decoration: none;
+    color: black;
+    display: block;
+    font-weight: 500;
+    margin-left: 20px;
+    margin-top: 25px;
+  }
