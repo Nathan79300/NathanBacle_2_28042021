@@ -80,11 +80,11 @@ p{
 }
 
 .Barre {
-    margin-left: 5px;
+    margin-left: 10px;
     margin-top: 13px;
     padding: 0rem 1rem;
-    width: 139px;
-    height: 28px;
+    width: 235px;
+    height: 50px;
     font-size: 1.125rem;
     border: 1px solid #F2F2F2;
     
@@ -94,8 +94,8 @@ p{
 .buttonderecherche{
     
     margin-top: 14px;
-    width: 79px;
-    height: 31px;
+    width: 134px;
+    height: 50px;
     border-radius: 0px 15px 15px 0px;
     background-color:#0065FC;
     border-color:#0065FC ;
@@ -123,11 +123,11 @@ float: left;
     display: flex;
     align-items: center;
     margin-top: 13px;
-    margin-left: 20px;
+    margin-left: 18px;
     padding: 0rem 1rem;
     background-color:#F2F2F2 ;
-    height: 31px;
-    width: 31px;
+    height: 50px;
+    width: 50px;
     border-radius: 15px 0px 0px 15px;
     
 }
@@ -271,6 +271,11 @@ h3{
 }
 .vignettehebergement:hover {
     -webkit-transform: scale(1.05);
+}
+.vignettehebergement h1{
+    margin-left: 5px;
+    font-size: 15px;
+    
 }
 .container .title{
    
